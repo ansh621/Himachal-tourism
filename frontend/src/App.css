@@ -1,0 +1,145 @@
+/* Import Dancing Script font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* Define font-family */
+.dancing-script {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Font styles */
+.demon {
+  font-family: 'Damion';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.2px;
+}
+
+.demon2 {
+  font-family: 'Damion';
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 3.2px;
+}
+
+.passion {
+  font-family: 'Passions Conflict', cursive;
+}
+
+.gilroy {
+  font-family: 'Gilroy', sans-serif;
+}
+
+.navtxt {
+  font-family: "Cormorant";
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+.custom-div {
+  background: linear-gradient(291deg, rgba(201.86, 201.19, 201.19, 0.31) 0%, rgba(255, 255, 255, 0.08) 100%);
+  box-shadow: 6px 4px 3.7px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(1.7px);
+}
+
+.backgroundv {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* To ensure the pseudo-element stays within the div */
+}
+
+.backgroundv::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('public/sdds-transformed.jpeg') no-repeat center center;
+  background-size: cover;
+  filter: brightness(0.6) contrast(1.1); /* Darken the image */
+  z-index: -1; /* Ensure the background is behind the content */
+}
+
+.Raleway {
+  font-family: Raleway;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 5.12px;
+}
+
+/* Font-face for custom font */
+@font-face {
+  font-family: 'Gideon Roman';
+  src: url('/path-to-your-font/GideonRoman.ttf') format('truetype');
+}
+
+/* Message styles */
+.messages {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 300px;
+  padding-top: 30px;
+  flex: 1;
+  overflow-y: auto; /* Allow vertical scrolling */
+  padding-right: 15px;
+  padding-left: 15px; /* To prevent content cutoff */
+}
+
+/* General response styling */
+.responseMsg {
+  max-width: 60%;
+  background-color: #2c2e2d;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  white-space: pre-line; /* Preserves new lines */
+  line-height: 1.5;
+}
+
+/* User message styling */
+.userMsg {
+  max-width: 60%;
+  background-color: #1a73e8;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 0;  /* Hide scrollbar for WebKit browsers */
+}
+
+body {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer 10+ */
+}
+
+/* Fade effects */
+.fade-element {
+  opacity: 0;
+  transition: opacity 0.8s ease-out; /* Adjust transition speed as needed */
+}
+
+/* Fade-in when the element is in view */
+.fade-in {
+  opacity: 1;
+}
+/* Prevent text selection and copying */
+.no-select {
+  user-select: none; /* Disable text selection */
+  -webkit-user-select: none; /* For Safari */
+  -ms-user-select: none; /* For older IE/Edge versions */
+  /* Disable right-click or drag selection */
+}
