@@ -11,7 +11,7 @@ const NavigationBar = () => {
   return (
     <div className='absolute w-full flex justify-between  z-30'>
       <div className='logo ml-2 h-14 w-14 text-white hover:scale-110 ease-in duration-300'>
-        <img src="https://himachaltourism.gov.in/wp-content/uploads/2018/03/himachallogosticky-1.png" />
+        <img src="http://hptdc.in/wp-content/uploads/2016/11/himachal-logo-2.png" />
       </div>
       <div className='tracking-tight  navtxt p-2 h-10 w-6/12 flex justify-between text-xl animate-slowFadeIn2'>
         <NavLink

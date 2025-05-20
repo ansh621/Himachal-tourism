@@ -10,7 +10,7 @@ const Footer = () => {
 
                         <div className='w-full w-72 flex mt-1'>
                             <div className=' ml-3 h-14 w-14 text-white'>
-                                <img src="https://himachaltourism.gov.in/wp-content/uploads/2018/03/himachallogosticky-1.png" />
+                                <img src="http://hptdc.in/wp-content/uploads/2016/11/himachal-logo-2.png" />
                             </div>
                             <div className="text-black text-[50px] font-normal font-gideon ml-5" >Himachal Pradesh </div>
                         </div>

@@ -1,6 +1,4 @@
-import React from 'react';
-
-const monasteries =[
+[
                             {
                                 name: "Sri Anandpur Sahib (Anandpur)",
                                 description: "Sri Anandpur Sahib, located in Anandpur, is one of the holiest sites for Sikhs. It was founded by Guru Tegh Bahadur and is famous for the Takht Sri Keshgarh Sahib, a prominent Gurudwara. The site is known for its historical significance, especially the formation of Khalsa. Pilgrims from around the world visit the gurudwara during the Hola Mohalla festival to partake in religious rituals, processions, and community celebrations."
@@ -73,37 +71,4 @@ const monasteries =[
                                 name: "Gurudwara Sri Guru Harkrishan Sahib (Una)",
                                 description: "Gurudwara Sri Guru Harkrishan Sahib in Una is a revered Sikh shrine that holds great importance for the local Sikh community. It is dedicated to Guru Harkrishan Sahib, who is revered for his teachings of humility, service, and love. The gurudwara is a peaceful place for prayer and reflection, with regular ceremonies and community events."
                             }
-                        ];
-
-const SikhismInHimachal = () => {
-  return (
-    <div className="w-full min-h-screen bg-cover bg-center relative" style={{ backgroundImage: "url('/Gurudwaras.jpg')" }}>
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-
-      <div className="relative z-10 flex flex-col items-center pt-20 px-4">
-        <h1 className="text-5xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-red-500 font-bold font-dancing">
-          Sikhism in Himachal Pradesh
-        </h1>
-        <p className="mt-4 text-white text-lg text-center max-w-3xl font-light">
-          Explore the rich spiritual heritage nestled in the mountains of Himachal.
-        </p>
-      </div>
-
-      <div className="relative z-10 mt-10 px-4 md:px-20 pb-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-white/20 backdrop-blur-xl p-10 rounded-3xl shadow-2xl">
-          {monasteries.map((monastery, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition duration-300 border border-gray-200"
-            >
-              <h2 className="text-xl font-bold text-gray-800 mb-2">{monastery.name}</h2>
-              <p className="text-gray-600 text-sm">{monastery.description}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default SikhismInHimachal;
+                        ]

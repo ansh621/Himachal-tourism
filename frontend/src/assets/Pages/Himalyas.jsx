@@ -15,7 +15,7 @@ const Himalyas = () => {
                         className="inset-0 object-cover w-full h-full -z-10 "
                     >
                         <source
-                            src="public\15456970-uhd_3840_2160_25fps.mp4"
+                            src="public/199958-911694865_medium"
                             type="video/mp4"
                         />
                     </video>
